@@ -1,0 +1,30 @@
+{
+    "type": "object",
+    "properties": {
+        "resourceGroupName": {
+            "required": true,
+            "type": "string"
+        },
+        "serverName": {
+            "required": true,
+            "type": "string"
+        },
+        "elasticPoolName": {
+            "required": true,
+            "type": "string"
+        },
+        "operationId": {
+            "required": true,
+            "type": "string",
+            "format": "uuid"
+        },
+        "subscriptionId": {
+            "required": true,
+            "type": "string"
+        },
+        "api_version": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}
